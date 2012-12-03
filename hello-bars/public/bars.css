@@ -1,3 +1,5 @@
+body { background-color:white;}
+
 .abar {
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -15,3 +17,6 @@ circle { opacity: 1;
          -webkit-transition: opacity 1s linear;
          fill:rgb(0,0,255);}
 circle:hover { opacity: 0; }
+
+line { stroke:blue;}
+line:hover { opacity: 0.5;}

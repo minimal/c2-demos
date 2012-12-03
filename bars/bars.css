@@ -1,0 +1,22 @@
+body { background-color:white;}
+
+.abar {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+.abar:hover {
+    opacity: 0.5;
+    -webkit-transform: translate(0.5em,0);
+}
+
+rect { -webkit-transition: all 0.2s ease-in-out;
+       fill:rgb(255,0,0);}
+rect:hover { -webkit-transform: translate(3em,0);
+             fill:rgb(0,255,0);}
+circle { opacity: 1;
+         -webkit-transition: opacity 1s linear;
+         fill:rgb(0,0,255);}
+circle:hover { opacity: 0; }
+
+line { stroke:blue;}
+line:hover { opacity: 0.5;}
